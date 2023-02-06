@@ -1,0 +1,27 @@
+{
+  "name": "matrixmultiply",
+  "version": "0.0.1",
+  "description": "Multiply matrices from CSV files.",
+  "main": "matmpy.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git-repo-tbd"
+  },
+  "keywords": [
+    "sysen5260"
+  ],
+  "author": "David Cuddihy",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "csv": ""
+  },
+  "bin": {
+    "matmpy": "./matmpy.js"
+  }
+}
