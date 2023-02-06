@@ -1,0 +1,10 @@
+services:
+  shell:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/opt/app
+      - ../data:/opt/data
+    working_dir: /opt/app
+    command: "bash"
